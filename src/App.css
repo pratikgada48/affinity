@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+  font-size: large;
+}
+body {
+  background: #f0f5ff;
+}
+.homepage-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 200px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 5px rgba(35, 30, 128, 0.05);
+}
+.homepage-container h3 {
+  margin-top: 20px;
+}
+.homepage-container .code-option {
+  width: 100%;
+  height: 100%;
+  margin: 50px 0px;
+  padding: 25px;
+}
+.homepage-container .code-option .option-link {
+  width: 100%;
+  margin: 0px 10%;
+  padding: 10px;
+  border: 1px solid #4f4f89;
+}
+.link {
+  text-decoration: none;
+}
+.poll-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 100%;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 5px rgba(35, 30, 128, 0.05);
+}
+.poll-container .poll-question {
+  padding: 20px;
+}
+.poll-container .poll-options {
+  padding: 10px 10px;
+}
+.poll-container .poll-options .answer {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  padding: 0px 10px;
+  line-height: 40px;
+  color: #111;
+  margin-bottom: 10px;
+  border: 1px solid #d4d4d4;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.poll-container .poll-options .answer.selected {
+  border: 1px solid #4f4f89;
+}
+.voteBtn {
+  width: 30%;
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 20px;
+  background: #4f4f89;
+  color: #fff;
+  font-size: x-large;
+}
+.voteBtn.disabled {
+  cursor: not-allowed;
+}
+.voteBtn.abled {
+  cursor: pointer;
+}
+.total-count {
+  width: 50%;
+  margin: 10px auto;
+  border-bottom: 0.5px solid slategrey;
+}
+.list-style {
+  list-style-type: none;
+  margin: 10px;
+}
+.back-home {
+  width: 30%;
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 10px;
+  background: #4f4f89;
+  color: #fff;
+  font-size: x-large;
+}
+.back-home .white-text {
+  color: #fff;
+}
